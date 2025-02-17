@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://akutahu.com/uploads/images/image_1920x_621e0b807ce46.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    margin: 250px;
+    padding: 100px;
+}
+.container {
+    padding: 50px;
+}
+.illustration {
+    max-width: 150px;
+    margin: 20px;
+}
+
+.styled-button {
+    background-color: #ffffff;
+    border: none; /* Menghilangkan border */
+    color: rgb(221, 229, 0); /* Warna teks */
+    padding: 15px 32px; /* Padding atas-bawah dan kiri-kanan */
+    text-align: center; /* Teks di tengah */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    display: inline-block; /* Menampilkan sebagai blok inline */
+    font-size: 16px; /* Ukuran font */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Menampilkan kursor pointer saat hover */
+    border-radius: 8px; /* Sudut melengkung */
+    transition: background-color 0.3s, transform 0.2s; /* Transisi untuk efek hover */
+}
+
+.styled-button:hover {
+    background-color: #000000; /* Warna latar belakang saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
